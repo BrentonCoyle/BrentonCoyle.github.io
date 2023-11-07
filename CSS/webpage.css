@@ -1,13 +1,7 @@
-.bg {
+body {
     /* The image used */
-    background-image: url("../IMAGES/Background.jpg");
-    height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-    }
+    background-image: image("../IMAGES/Background.jpg"); 
+}
 
 #Text{
     
