@@ -1,3 +1,14 @@
+.bg {
+    /* The image used */
+    background-image: url("../IMAGES/Background.jpg");
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+    }
+
 #Text{
     
     display: flex;
@@ -129,7 +140,6 @@
 /*Top Links----------------------------------------------------------------------------------------------*/
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blanchedalmond;
 }
 
 #Links {
