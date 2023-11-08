@@ -1,6 +1,3 @@
-body {
-    background-image: url(../IMAGES/Cork.png);
-}
 
 #Text{
     
@@ -133,6 +130,7 @@ body {
 /*Top Links----------------------------------------------------------------------------------------------*/
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blanchedalmond;
 }
 
 #Links {
