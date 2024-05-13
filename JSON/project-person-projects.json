@@ -1,0 +1,39 @@
+[
+    {
+        "id":"puzzle-robot",
+        "tip": "Puzzle Robot",
+        "secondText": "My First Game I Made On My Own Before Starting School"
+    },
+    {
+        "id":"tree-simulator",
+        "tip": "Tree Simulator",
+        "secondText": "Another Game I Made As A Remake From A Class In High School"
+    },
+    {
+        "id":"too-much",
+        "tip": "Too Much!",
+        "secondText": "A Game I Made For A Game Jam On Itch.io Called The Tri-Jam Where You Make A Game In 3 Hours"
+    },
+    {
+        "id":"escape-the-abyss",
+        "tip": "Escape The Abyss",
+        "secondText": "A Zombie Survival Game (In Development)"
+    },
+    {
+        "id":"bad-beats",
+        "tip": "Bad Beats",
+        "secondText": "A Rythem Based Boss Fighting Game (In Development)"
+    },
+    {
+        "id":"slimy-friend",
+        "class": "card green",
+        "tip": "Slimy Friend",
+        "secondText": "An AI Controled Game About Taking Care Of A Slime (In Development)"
+    },
+    {
+        "id":"pet-simulator",
+        "class": "card green",
+        "tip": "Pet Simulator",
+        "secondText": "Created In 2023 In The Indian Hills Byte-Jam Along 1 Other Person"
+    }
+]

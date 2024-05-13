@@ -1,0 +1,50 @@
+[
+    {
+        "id": "puzzle-robot",
+        "image":"/IMAGES/PuzzleRobot1.png",
+        "title":"Puzzle Robot",
+        "description":"Puzzle Robot was my first game I've ever released. It was developed using Game Maker Studio 2. The game features XYZ and ABC functionalities.",
+        "link": "https://bert-boom.itch.io/puzzle-robot"
+    },
+    {
+        "id": "tree-simulator",
+        "image":"/IMAGES/TreeSim.png",
+        "title":"Tree Simulator",
+        "description":"This was the second game I've ever released I went more for an idle game type vibe to it rather than a platformer to try to understaing balanceing when it comes to game development.",
+        "link":"https://bert-boom.itch.io/tree-simulator-2"
+    },
+    {
+        "id": "too-much",
+        "image":"/IMAGES/FeedMe.png",
+        "title":"Too Much!",
+        "description":"Too Much is a game that was made for the Tri-Jam its a weekly competion that happens over the weekend where you only get 3 hours total to make a game over a set theme, the theme is Too Much.",
+        "link":"https://bert-boom.itch.io/game"
+    },
+    {
+        "id": "escape-the-abyss",
+        "image":"/IMAGES/EscapeTheAbyss.png",
+        "title":"Escape The Abyss",
+        "description":"Escape The Abyss is a project I'm still working on where I'm messing with level design and puzzle design. Its a zombie survival game where you must save survivors trapped around a destroyed city. It has a dymanic gun reload and crafting system to inhance your weapondry. It also dips into creating AI to attack the player."
+    },
+    {
+        "id": "bad-beats",
+        "image":"/IMAGES/BadBeats1.png",
+        "title":"Bad Beats",
+        "description":"This was a game I was making to learn more about music and how to create rythem, its a boss-fight game where the enemies almost create the music around you."
+    },
+    {
+        "id": "slimy-friend",
+        "image":"/IMAGES/SlimyFriend.png",
+        "title":"Slimy Friend",
+        "description":"Slimy Friend is a game i started making to learn more about creating AI and giveing it mode to do task, it was like a vertiral pet"
+    },
+    {
+        "id": "pet-simulator",
+        "image":"/image.png",
+        "title":"Pet Simulator",
+        "description":"This was a game I made with a group of people for Indian Hills 2023 Byte Jame in Unity our team of 6 split into teams of 3 to make a website and a game. I was part of the game team and we made a tamagotchi game to go with the 90s theme we got."
+    }
+
+
+    
+]

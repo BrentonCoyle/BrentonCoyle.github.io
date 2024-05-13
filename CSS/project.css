@@ -1,0 +1,87 @@
+
+body {
+    background-color: rgb(35, 35, 35);
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center;
+    padding-right: 130px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+hr{
+    width:90%;
+    height:5px;
+    border-width:0;
+    background-color:#00A4BD;
+    
+}
+
+#title{
+    text-align: center;
+    color:white;
+    font-size: 20;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* color for cards */
+.cards .grey {
+  background-color: #403e3e;
+}
+
+
+/* inside of cars */
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+  
+}
+
+.cards .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.cards .card p.second-text {
+  font-size: .7em;
+  padding: 10px;
+}
+
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+  transform: scale(0.95, 0.95);
+}
+
+a {
+    text-decoration: none;
+}

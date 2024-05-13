@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Final: Home Page</title>
+    <title>Javascript Final: Contact Me</title>
     <link rel="stylesheet" href="/CSS/Home.css">
     <link rel="stylesheet" href="/CSS/buttons.css">
+    <link rel="stylesheet" href="/CSS/contact-me.css">
 </head>
 <body>
-    <div class="triangle"></div>
+    
 
-    <div id="container">
-        <div>
-            <img style="border-radius: 10px;" id="face" alt="My Placeholder Photo" src="/IMAGES/Face_Placeholder.png">
+    <div style="height: 100%; display: flex; justify-content: center; align-items: center;margin-top: 120px;">
+      <div class="form-container">
+        <div class="form">
+              <span class="heading">Contact Me</span>
+              <input placeholder="Name" type="text" class="input">
+              <input placeholder="Email" id="mail" type="email" class="input">
+              <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+              
+              <!--Make Buttons-->
+              <div class="button-container2">
+              <div class="send-button">Send</div>
+              <div class="reset-button-container">
+                  <div id="reset-btn" class="reset-button">Reset</div>
+              </div>
+          </div>
         </div>
+      </div>
+  </div>
 
-        <div id="text">
-            <h1 style="padding: 20px;">Hello, My Name Is Brenton Coyle</h1>
-            <h2>Software Developer/Game Developer</h2>
-
-            <p style="line-height: 30px;padding: 10px;font-size: 17px;">I'm currently enrolled in a Software Developer course at Indian Hills Community College (IHCC). I've been learning many different languages such as HTML, CSS, JS, Python, Cobol, React, JSON, Java, and more!</p>
-            <p style="line-height: 30px;padding: 10px;font-size: 17px;">  On the right side of the screen there are some buttons to take you to diffrent pages to learn more about me!</p>
-        </div>
-
-        
-    </div>
 
     <header class="button-container">
       <nav>
@@ -51,13 +56,12 @@
               </a>
           </li>
         <li>
-          <a href="/HTML/contact-me.html">
+          <a href="/contact-me.html">
             <span>Contact Me</span>           
           </a>
       </li>
           </ul>
         </nav>
       </header>
-
 </body>
 </html>

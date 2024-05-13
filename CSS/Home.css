@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(35, 35, 35);
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center;
+    height: 100vh; /* Ensure the container takes the full height of the viewport */
+}
+
+.triangle {
+    position: fixed;
+    background-color: rgb(35, 101, 159); /* Replace 'accent' with your desired color */
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 200% of the viewport height */
+    transform: rotate(-90deg); /* Rotate -15 degrees clockwise */
+    top: 30%; /* Position the top edge at the middle of the viewport */
+    left: -40%; /* Position the left edge 83% from the left side of the viewport */
+    z-index: -1;
+}
+
+#face {
+    width: 130%;
+    height: auto;
+    max-width: 300px; /* Limit the maximum width of the image */
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#text {
+    max-width: 40%; /* Set a maximum width for the text */
+    text-align: center;
+    margin-right: 230px;
+    color: white;
+}
+
+
+

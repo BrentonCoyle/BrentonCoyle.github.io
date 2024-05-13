@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(35, 35, 35);
+    margin: 0;
+    padding-right: 130px;
+}
+
+#projectDetails {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+#title{
+    text-align: center;
+    color:white;
+    font-size: 20;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+#image{
+    width: 50%;
+    height: auto;
+    border:solid 4px black;
+}
+
+#imageCode{
+    max-height: 600px; /* Set the maximum height of the image container */
+    max-width: 70%;
+    overflow: auto; /* Add a scrollbar if the image exceeds the container size */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#code
+{
+    width:100%;
+}
+
+#description{
+    max-width: 70%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#CodeButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+   
+}
+
+#button
+{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #24282e;
+    color:white;
+    font-size: 20px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    
+}

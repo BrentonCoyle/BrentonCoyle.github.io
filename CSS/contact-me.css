@@ -1,0 +1,78 @@
+.orange {
+    color: #763eef;
+  }
+  
+  .form-container {
+    max-width: 700px;
+    margin: 30px;
+    background-color: #14161a;
+    padding: 30px;
+    
+  }
+  
+  .heading {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .form .input {
+    color: #87a4b6;
+    width: 100%;
+    background-color: #343a42;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+
+  
+  .form-container .form .textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #343a42;
+    font-weight: bold;
+    resize: none;
+    max-height: 150px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  
+  
+  .form-container .form .button-container2 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-container .form .button-container2 .send-button {
+    flex-basis: 70%;
+    background: #24282e;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  .form-container .form .button-container2 .reset-button-container .reset-button {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #24282e;
+    width: 200px;
+
+  }
+  
+  

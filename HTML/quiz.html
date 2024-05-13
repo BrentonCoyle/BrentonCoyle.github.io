@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Final: Home Page</title>
-    <link rel="stylesheet" href="/CSS/Home.css">
+    <title>Javascript Final: About Me</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/quiz.css">
     <link rel="stylesheet" href="/CSS/buttons.css">
 </head>
 <body>
-    <div class="triangle"></div>
+    
 
-    <div id="container">
-        <div>
-            <img style="border-radius: 10px;" id="face" alt="My Placeholder Photo" src="/IMAGES/Face_Placeholder.png">
-        </div>
+    
+    <div class="container h-100">
+      <div class="box">
+        <h1 id="questionNo">Quiz</h1>
+        <p id="question">Question</p>
+        <input id="text-field" type="text" class="form-control">
+        <input id="button" type="submit" value="Submit" class="btn btn-primary btn-block">
+      </div>
+    </div>
 
-        <div id="text">
-            <h1 style="padding: 20px;">Hello, My Name Is Brenton Coyle</h1>
-            <h2>Software Developer/Game Developer</h2>
-
-            <p style="line-height: 30px;padding: 10px;font-size: 17px;">I'm currently enrolled in a Software Developer course at Indian Hills Community College (IHCC). I've been learning many different languages such as HTML, CSS, JS, Python, Cobol, React, JSON, Java, and more!</p>
-            <p style="line-height: 30px;padding: 10px;font-size: 17px;">  On the right side of the screen there are some buttons to take you to diffrent pages to learn more about me!</p>
-        </div>
+    <script src="/JAVASCRIPT/quiz.js"></script>
 
         
-    </div>
+    
+
 
     <header class="button-container">
       <nav>
@@ -58,6 +59,5 @@
           </ul>
         </nav>
       </header>
-
 </body>
 </html>
