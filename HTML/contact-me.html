@@ -15,13 +15,11 @@
       <div class="form-container">
         <div class="form">
               <span class="heading">Contact Me</span>
-              <input placeholder="Name" type="text" class="input">
-              <input placeholder="Email" id="mail" type="email" class="input">
-              <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
-              
-              <!--Make Buttons-->
+              <input id="Name" placeholder="Name" type="text" class="input" required>
+              <input placeholder="Email" id="mail" type="email" class="input" required>
+              <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea" required></textarea>
               <div class="button-container2">
-              <div class="send-button">Send</div>
+                <input style="box-shadow: none; outline: none; border: none;" type="submit" class="send-button" value="Send" onclick="validateForm()">
               <div class="reset-button-container">
                   <div id="reset-btn" class="reset-button">Reset</div>
               </div>
@@ -29,6 +27,24 @@
         </div>
       </div>
   </div>
+
+  <script>
+    function validateForm() {
+        var name = document.getElementById('Name').value;
+        var email = document.getElementById('mail').value;
+        var message = document.getElementById('message').value;
+        
+        if (name == "" || email == "" || message == "") {
+            alert("All fields must be filled out");   
+        }
+        // got to love the internet for finding good validation (Stack Overflow)
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address");
+            
+        }
+    }
+</script>
 
 
     <header class="button-container">

@@ -2,7 +2,7 @@
 .button-container {
     position: fixed;
     top: 50%;
-    right: 10px; /* Adjust this value as needed */
+    right: 10px; 
     transform: translateY(-50%);
     z-index: 1000;
 }
@@ -35,7 +35,7 @@ nav {
     position: relative;
     margin:-20px;
     text-decoration: none;
-    color:black; /*Color of the Icon*/
+    color:black;
     position: absolute;
       z-index: 20;
       right: 15px;
@@ -72,7 +72,7 @@ nav {
     position: relative;
     visibility: none;
     width: auto;
-    max-width:0px; /* This is the fixed unit value */
+    max-width:0px;
     opacity: 0;
     text-align: center;
     transition:all 1s;
@@ -90,6 +90,6 @@ nav {
     margin-right:0px;
     opacity: 1;
     width: auto;
-    max-width:500px; /* this value makes the transition */
+    max-width:500px;
     padding-right:38px;
   }

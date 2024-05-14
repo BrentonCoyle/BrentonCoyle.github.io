@@ -29,9 +29,9 @@ body {
 }
 
 #imageCode{
-    max-height: 600px; /* Set the maximum height of the image container */
+    max-height: 600px; 
     max-width: 70%;
-    overflow: auto; /* Add a scrollbar if the image exceeds the container size */
+    overflow: auto;
     align-items: center;
     justify-content: center;
     

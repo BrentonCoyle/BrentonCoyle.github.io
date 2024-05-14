@@ -7,32 +7,32 @@ body {
 
 #container {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly along the main axis */
+    justify-content: space-between;
     align-items: center;
-    height: 100vh; /* Ensure the container takes the full height of the viewport */
+    height: 100vh;
 }
 
 .triangle {
     position: fixed;
-    background-color: rgb(35, 101, 159); /* Replace 'accent' with your desired color */
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 200% of the viewport height */
-    transform: rotate(-90deg); /* Rotate -15 degrees clockwise */
-    top: 30%; /* Position the top edge at the middle of the viewport */
-    left: -40%; /* Position the left edge 83% from the left side of the viewport */
+    background-color: rgb(35, 101, 159); 
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(-90deg); 
+    top: 30%; 
+    left: -40%; 
     z-index: -1;
 }
 
 #face {
     width: 130%;
     height: auto;
-    max-width: 300px; /* Limit the maximum width of the image */
+    max-width: 300px; 
     margin-left: 100px;
     margin-top: 10px;
 }
 
 #text {
-    max-width: 40%; /* Set a maximum width for the text */
+    max-width: 40%; 
     text-align: center;
     margin-right: 230px;
     color: white;

@@ -5,7 +5,7 @@
   .form-container {
     max-width: 700px;
     margin: 30px;
-    background-color: #14161a;
+    background-color: #403e3e;
     padding: 30px;
     
   }
@@ -19,9 +19,9 @@
   }
   
   .form-container .form .input {
-    color: #87a4b6;
+    color: white;
     width: 100%;
-    background-color: #343a42;
+    background-color: #544e4e;
     border: none;
     outline: none;
     padding: 10px;
@@ -36,7 +36,7 @@
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #343a42;
+    background-color: #544e4e;
     font-weight: bold;
     resize: none;
     max-height: 150px;
@@ -53,7 +53,7 @@
   
   .form-container .form .button-container2 .send-button {
     flex-basis: 70%;
-    background: #24282e;
+    background: #544e4e;
     padding: 10px;
     color: white;
     text-align: center;
@@ -68,9 +68,9 @@
     position: relative;
     text-align: center;
     padding: 10px;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
-    background: #24282e;
+    background: #544e4e;
     width: 200px;
 
   }

@@ -1,27 +1,27 @@
 [
     {
-        "id":"1",
-        "question":"question 1",
-        "answer":"blank"
+        "id":"Question 1",
+        "question":"What Is My (Brenton) Middle Name? (Lower Case Only)",
+        "answer":"james"
     },
     {
-        "id":"2",
-        "question":"question 2",
-        "answer":"blank"
+        "id":"Question 2",
+        "question":"What Was My First Game I Made? (Lower Case Only)",
+        "answer":"puzzle robot"
     },
     {
-        "id":"3",
-        "question":"question 3",
-        "answer":"blank"
+        "id":"Question 3",
+        "question":"What Color Is The Square On The Home Page (Lower Case Only)",
+        "answer":"blue"
     },
     {
-        "id":"4",
-        "question":"question 4",
-        "answer":"blank"
+        "id":"Question 4",
+        "question":"How Many Personal Projects Did I Have? (Lower Case Only)",
+        "answer":"7"
     },
     {
-        "id":"5",
-        "question":"Did you like my website?",
-        "answer":"Yes"
+        "id":"Question 5",
+        "question":"Did you like my website? (Lower Case Only) (Hint: YES)",
+        "answer":"yes"
     }
 ]

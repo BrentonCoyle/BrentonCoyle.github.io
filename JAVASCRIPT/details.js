@@ -5,14 +5,9 @@ const projectId = urlParams.get('projectId');
 Promise.all([
     fetch('/JSON/projects-personal-data.json').then(response => response.json()),
 ])
-.then(([personalData, schoolData]) => {
+.then(([personalData]) => {
     // Find the project with the matching ID in personalData
     let project = personalData.find(item => item.id === projectId);
-    
-    // If not found in personalData, try finding in schoolData
-    if (!project) {
-        project = schoolData.find(item => item.id === projectId);
-    }
     
     // Display project details or error message
     const projectDetails = document.getElementById('projectDetails');

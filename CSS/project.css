@@ -9,7 +9,7 @@ body {
 #container {
     position: relative;
     display: flex;
-    justify-content: space-between; /* Distribute items evenly along the main axis */
+    justify-content: space-between;
     align-items: center;
     padding-right: 130px;
     padding-left: 60px;
@@ -41,13 +41,13 @@ hr{
   gap: 15px;
 }
 
-/* color for cards */
+
 .cards .grey {
   background-color: #403e3e;
 }
 
 
-/* inside of cars */
+
 .cards .card {
   display: flex;
   align-items: center;

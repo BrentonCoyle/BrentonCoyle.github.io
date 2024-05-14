@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="/CSS/quiz.css">
     <link rel="stylesheet" href="/CSS/buttons.css">
 </head>
-<body>
+<body style="display:flex;align-items: center;justify-content: center;height: 100vh;">
     
 
-    
+    <!--I watched a video on bootstrap of this so if its not correct "\(o_O)/" -->
     <div class="container h-100">
       <div class="box">
         <h1 id="questionNo">Quiz</h1>
         <p id="question">Question</p>
         <input id="text-field" type="text" class="form-control">
-        <input id="button" type="submit" value="Submit" class="btn btn-primary btn-block">
+        <input onclick="clickButton()" id="button" type="submit" value="Submit" class="btn btn-primary btn-block">
       </div>
     </div>
 
